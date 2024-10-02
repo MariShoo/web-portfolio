@@ -1,0 +1,48 @@
+.body {
+  margin: 0;
+  padding: 0;
+  height: max-content;
+  background: linear-gradient(to bottom right, rgb(40, 3,92), #a202a4);
+  flex-direction: column;
+  scroll-behavior:smooth;
+  position: static;
+}
+
+.home {
+  text-align: left;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 60px;
+}
+
+.nav {
+  color: white;
+  background-color: rgb(40, 3, 92);
+  padding: 30px 40px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; 
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #27004e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  
+}
+
+button:hover {
+  background-color: #460047;
+}
+.a{
+  color: black;
+  
+}
