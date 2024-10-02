@@ -1,0 +1,133 @@
+.home {
+  text-align:left;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 160px;
+  background-color: #111;
+  padding-top: 160px;
+  padding-bottom: 60px;
+
+}
+
+
+.nav {
+  background-color: rgba(4, 4, 4, 0.779);
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+button {
+  width: 150px;
+  height: 50px;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #ffffff;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+button:hover {
+  color: #640101;
+}
+.welcome {
+  font-size: xx-large;
+  padding: 100px;
+  animation: colorChange 3s infinite alternate ease-in-out, slideIn 1s forwards,
+    rotate 5s infinite linear;
+}
+.CVbutton {
+  color: #111;
+  background-color: rgba(4, 4, 4, 0.706);
+  display: inline-block;
+  border: 2px solid #fff;
+  padding: 2px 3px;
+  border-radius: 4px;
+  color: #fff;
+  transition: all 0.3s;
+}
+.h1s{
+font-size: 2em;
+
+}
+.h2s{
+  font-size: 2em;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom:  80px; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #640101;
+
+}
+.h3s{
+  font-size: large;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #595959;
+}
+.decorated-title {
+  position: relative;
+  display: inline-block;
+  font-size: 1em;
+  color: white;
+}
+
+.decorated-title::after {
+  content: '';
+  align-content:start;
+  display: block;
+  padding-right: 0%;
+  width: 50px; /* Length of the line */
+  height: 5px; /* Thickness of the line */
+  background-color: #640101; /* Color of the line */
+  margin: 10px auto 0; /* Space above the line */
+  border-radius: 2px; /* Optional: Rounds the edges */
+}
+
+footer{
+  text-align: center;
+  justify-content: space-between;
+  background-color:  rgb(4, 4, 4) ;
+}
+/* src/TextAnimation.css */
+.text-animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 50vh;
+  font-size: 2em;
+  color: #640101;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  overflow: hidden; 
+  width: 250px;
+  height: 150px; 
+}
+
+.animated-text {
+  position: absolute;
+  left: 0;
+  animation: myMove 5s ease-in-out infinite;
+}
+
+@keyframes myMove {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  } 
+}
+
